@@ -38,6 +38,7 @@ httpc.send();
 function loadword(){
     if(WORD.length < 1){
         WORD = ["WORD"];
+        savejson();
     }
     document.getElementById("WORDFEED").innerHTML = "";
     for(var index = 0;index < WORD.length;index++){
