@@ -1,5 +1,6 @@
 {
     "html": [
+        "WORD.txt",
         "edit.html",
         "fork.html",
         "index.html",
